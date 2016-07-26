@@ -317,7 +317,7 @@ input:focus, textarea:focus {outline: none;}
 .bax{width:100%; margin:3% auto; overflow:hidden; background:url(../images/tx.jpg) center center no-repeat;
 	background-size:100%; position:relative;padding:14.5% 0; }
 .bax h2{ font-size:1em; font-weight:bold; color:#ffffff; position:absolute;left: 35%;top: 6%;margin: 0;}
-.bax p{ font-size:0.8em; font-weight:bold; color:#ffffff; position:absolute;width: 64%;top: 28%;left: 35%;line-height: 1.5;}
+.bax p{ font-size:0.8em; font-weight:bold; color:#ffffff; position:absolute;width: 64%;top: 28%;left: 35%;line-height: 1.3;}
 
 .al_box .active{display:block;}
 .al_pic{text-align:center;margin-top:2%;}
