@@ -1,0 +1,583 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+<!-- 启用webAPP全屏模式-->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- 隐藏状态栏或者设置状态栏的颜色-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!-- 忽略数字自动识别为电话号码-->
+<meta name="format-detection" content="telephone=no">
+<!--控制缓存的失效日期 -->
+<meta http-equiv="Expires" content="-1">
+<!-- 禁止转码-->
+<meta http-equiv="Cache-Control" content="no-cache">
+<!-- 禁止缓存访问页面-->
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="applicable-device" content="mobile">
+<!-- 页面关键词-->
+<meta content="" name="keywords">
+<meta name="description" content="">
+<title></title>
+
+<script src="js/remlay.js"></script>
+<link rel="stylesheet" type="text/css" href="css/swiper.css">
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<script src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+    <base target="_blank">
+<body>
+   <div class="top">
+       <header>
+           <img src="images/header.jpg"/>
+           <a href="#">
+               <img src="images/tel1.gif" class="img1"/>
+           </a>
+       </header>
+       <div class="sou">
+           <script type="text/javascript">
+               function ss() {
+                   if (document.form1.keyword.value==""||document.form1.keyword.value=="请输入您想搜索的内容")
+                   {
+                       alert("请输入您要搜索的内容");document.form1.keyword.focus();
+                       return false
+                   }
+                   return true;
+               }
+           </script>
+           <form name="form1" id="form1" onSubmit="return ss();">
+               <input name="keyword" id="keyword" type="text" class="text" value="请输入您想搜索的内容" onFocus="if(this.value==this.defaultValue){this.value='';};" onBlur="if(this.value==''){this.value=this.defaultValue;}" />
+               <input type="submit" value="搜索" class="bt" />
+            </form>
+       </div>
+       <nav>
+           <ul>
+               <li><a href="#"><img src="images/nav1.png"><p>首　　页</p></a></li>
+               <li><a href="#"><img src="images/nav2.png"><p>医院简介</p></a></li>
+               <li><a href="#"><img src="images/nav3.png"><p>病友交流</p></a></li>
+               <li><a href="#"><img src="images/nav4.png"><p>社会公益</p></a></li>
+           </ul>
+       </nav>
+   </div>
+   <div class="swiper-container banner">
+       <div class="swiper-wrapper">
+           <div class="swiper-slide">
+               <a href="#">
+                   <img src="images/banner-01.jpg">
+               </a>
+           </div>
+           <div class="swiper-slide">
+               <a href="#">
+                   <img src="images/banner-02.jpg">
+               </a>
+           </div>
+       </div>
+       <div class="swiper-pagination swiper-01"></div>
+   </div>
+   <script type="text/javascript">
+       var mySwiper = new Swiper('.banner', {
+           autoplay:3000,
+           loop: true,
+           autoHeight: true,
+           paginationClickable: true,
+           pagination: '.swiper-01',
+       });
+   </script>
+   <div class="lead">
+       <p>亮甲、偏方、修脚店、等随处可见灰指甲广告。灰指甲该如何治疗?医生表示：祛除灰指甲切中要害是关键，灰指甲是由真菌侵犯甲板所致，而真菌是一种生命力和繁殖力极强的细菌。研究发现97%的真菌都潜伏在甲根部位。药物一般只能缓解无法深入甲根。</p>
+   </div>
+   <section class="part1">
+       <div class="title">
+           <div class="fl">
+               <h2>心动，结果却心痛</h2>
+               <h3>HEART, THE RESULT IS A HEARTACHE</h3>
+           </div>
+           <div class="fr">
+               <a href="#"><img src="images/t1.png"></a>
+           </div>
+       </div>
+       <div class="part1-01">
+           <img src="images/p1-01.jpg">
+           <img src="images/p1-02.jpg">
+           <div class="p1-01">
+               <span>1、修甲店骗钱</span>
+               <p><i>（新民晚报）</i>据蔡阿姨称，小区附近有家专业指甲店治疗灰指甲、肉刺，店员告诉她是包治好的，治不好退款。反反复复治疗多次花了1000多元后，看不出任何效果。蔡阿姨要求退款时候，店主每次都借机溜走!</p>
+               <span>2、小门诊伪装大医院</span>
+               <p><i>（新闻晨报）</i>薛女士在网上找了一家大医院，到了之后，薛女士才发现该“医院”和小门诊差不多大小，总共花了5000多元费用!薛女士的灰指甲非但不好，却愈发严重。</p>
+               <div class="video">
+                   <img src="images/v1.jpg">
+               </div>
+               <a href="#" class="btn">
+                   <i>0571-28203700</i>
+                   <em>点击拨打</em>
+               </a>
+           </div>
+       </div>
+   </section>
+
+   <section class="part2">
+       <div class="title">
+           <div class="fl">
+               <h2>斩草不除根 春风吹又生</h2>
+               <h3>DON'T CUT GRASS ROOT GROWS AGAIN WITH THE SPRING BREEZE</h3>
+           </div>
+           <div class="fr">
+               <a href="#"><img src="images/t1.png"></a>
+           </div>
+       </div>
+       <ul>
+           <li>
+               <h3>亮甲、偏方治疗</h3>
+               <div class="p2-01">
+                   <img src="images/p2-01.jpg">
+                   <img src="images/p2-02.jpg">
+                   <img src="images/p2-03.jpg">
+               </div>
+               <div class="p2-02">
+                   <p>修甲、药水泡甲、<i>杀菌不彻底</i>只能缓解，治疗灰指甲还是要深入病灶，修脚店导致其他<i>指甲感染</i>。</p>
+                   <a href="#" class="btn">
+                       <i>一键拨打咨询详情</i>
+                       <em>0571-28203700</em>
+                   </a>
+               </div>
+           </li>
+           <li>
+               <h3>手术拔甲治疗</h3>
+               <div class="p2-01">
+                   <img src="images/p2-04.jpg">
+                   <img src="images/p2-05.jpg">
+                   <img src="images/p2-06.jpg">
+               </div>
+               <div class="p2-02">
+                   <p>通过手术拔除患病指甲,病甲拔除后新甲长出缓慢，十指连心非常<i>痛苦，创伤大</i>且疼痛，愈后不会复发<i>47%的患者容易复发</i>。</p>
+                   <a href="#" class="btn">
+                       <i>一键拨打咨询详情</i>
+                       <em>0571-28203700</em>
+                   </a>
+               </div>
+           </li>
+           <li>
+               <h3>修脚店</h3>
+               <div class="p2-01">
+                   <img src="images/p2-07.jpg">
+                   <img src="images/p2-08.jpg">
+               </div>
+               <div class="p2-02">
+                   <p>修甲、药水泡甲、杀菌不彻底只能缓解，治疗灰指甲还是要深入病灶，修脚店导致其他指甲感染。</p>
+                   <a href="#" class="btn">
+                       <i>一键拨打咨询详情</i>
+                       <em>0571-28203700</em>
+                   </a>
+               </div>
+           </li>
+       </ul>
+   </section>
+
+   <section class="part3">
+       <div class="title">
+           <div class="fl">
+               <h2>京都深入杀菌提高甲床免疫能力</h2>
+               <h3>KYOTO TO IMPROVE THE ABILITY OF A BED</h3>
+           </div>
+           <div class="fr">
+               <a href="#"><img src="images/t1.png"></a>
+           </div>
+       </div>
+       <div class="p3-01">
+           <h2>治疗原理</h2>
+           <h3>TREATMENT PRINCIPLE</h3>
+           <p>灰指甲复发性极高，传染性及强，难掌控和治疗。一直是医学界难题。杭州京都医院利用生物纳米技术结合特制高效汉方药物，修复甲床，深入甲根，促进指甲新生。过程中无需拔甲、无需打针，无痛苦，可以深入病甲，直达病根。此方法在2015国际皮肤病学诊疗新技术推广大会上得到医学同行的认可和赞扬。</p>
+           <div>
+               <img src="images/p3-02.jpg">
+               <img src="images/p3-03.jpg">
+               <img src="images/p3-04.jpg">
+           </div>
+       </div>
+       <div class="p3-02">
+           <h2>治疗过程</h2>
+           <h3>TREATMENT PROCESS</h3>
+           <ul>
+               <li>
+                   <h4><span>01</span>检测致病菌</h4>
+                   <img src="images/p3-05.jpg">
+                   <p>采用美国引进的奥林巴斯真菌检测仪，对患者的指甲进行检测，查出致病。</p>
+               </li>
+               <li>
+                   <h4><span>02</span>微波渗透甲床</h4>
+                   <img src="images/p3-06.jpg">
+                   <p>运用先进医疗设备NB-UVB紫外线光治疗仪、308nm准分子激光治疗仪、QK全科治疗仪等杀灭真菌。</p>
+               </li>
+           </ul>
+           <ul>
+               <li>
+                   <h4><span>03</span>补充微量元素菌</h4>
+                   <img src="images/p3-07.jpg">
+                   <p>治疗的同时补充指甲所需的微量元素和营养物质，修复受损甲床、促进新甲再生，达到杀菌保养一体。</p>
+               </li>
+               <li>
+                   <h4><span>04</span>中药辅助治疗</h4>
+                   <img src="images/p3-08.jpg">
+                   <p>以传统中药、巩固治疗效果，提高自身的免疫力防止再次感染，现象。</p>
+               </li>
+           </ul>
+       </div>
+       <a href="#" class="btn">
+           <i>一键拨打咨询详情</i>
+           <em>0571-28203700</em>
+       </a>
+   </section>
+
+   <section class="part4">
+       <div class="title">
+           <div class="fl">
+               <h2>京都治甲名医</h2>
+               <h3>KYOTO MEDICAL TREATMENT</h3>
+           </div>
+           <div class="fr">
+               <a href="#"><img src="images/t1.png"></a>
+           </div>
+       </div>
+       <div class="tab">
+           <div class="tab-bd" id="tab-bd">
+               <ul>
+                   <li>
+                       <div class="p4-02">
+                           <div class="left">
+                               <img src="images/p4-01.jpg">
+                           </div>
+                           <div class="right">
+                               <h3>李显平<span>中医师</span></h3>
+                               <p>从事皮肤科临床工作30年，京都甲真菌皮肤科医生，专攻皮肤病疑难病，擅长中医治疗青春痘、扁平疣、灰指甲等皮肤疾病的诊治。</p>
+                               <div class="btn-01">
+                                   <a href="#">在线咨询</a>
+                                   <a href="#" class="a1">预约挂号</a>
+                               </div>
+                           </div>
+                       </div>
+                   </li>
+                   <li style="display: none">
+                       <div class="p4-02">
+                           <div class="left">
+                               <img src="images/p4-06.jpg">
+                           </div>
+                           <div class="right">
+                               <h3>宋连清<span>皮肤科主任</span></h3>
+                               <p>从事皮肤科临床工作30年，担任京都皮肤科主任，擅长运用中西医结合治疗皮肤疾病，如：灰指甲、湿疹、皮炎、青春痘等皮肤疾病的诊治。</p>
+                               <div class="btn-01">
+                                   <a href="#">在线咨询</a>
+                                   <a href="#" class="a1">预约挂号</a>
+                               </div>
+                           </div>
+                       </div>
+                   </li>
+                   <li style="display: none">
+                       <div class="p4-02">
+                           <div class="left">
+                               <img src="images/p4-07.jpg">
+                           </div>
+                           <div class="right">
+                               <h3>全军皇<span>专注皮肤病疑难病</span></h3>
+                                   <p>从事皮肤科临床工作10年，京都疑难皮肤病专家，专攻皮肤病疑难病，擅长治疗灰指甲、白癜风、青春痘等皮肤疾病的诊治。</p>
+                                   <div class="btn-01">
+                                       <a href="#">在线咨询</a>
+                                       <a href="#" class="a1">预约挂号</a>
+                                   </div>
+                               </div>
+                           </div>
+                       </li>
+                   </ul>
+               </div>
+               <div class="tab-hd" id="tab-hd">
+                   <a href="javascript:void(0);" class="hover"><img src="images/p4-03.jpg"></a>
+                   <a href="javascript:void(0);"><img src="images/p4-04.jpg"></a>
+                   <a href="javascript:void(0);"><img src="images/p4-05.jpg"></a>
+               </div>
+           </div>
+       <div class="p4-03">
+           <h2>名医在线解答疑问</h2>
+           <h3>DOCTORS ONLINE TO ANSWER QUESTIONS</h3>
+           <div class="p4-04">
+               <img src="images/p4-08.jpg">
+               <img src="images/p4-09.jpg">
+               <img src="images/p4-10.jpg">
+               <p>有问题直接在线咨询吧！一对一咨询，轻松解除疑惑</p>
+               <div class="btn-02">
+                   <a href="#">在线咨询</a>
+                   <a href="#" class="a2">电话咨询</a>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <section class="part5">
+       <div class="title">
+           <div class="fl">
+               <h2>选对医生，和他们一样新甲重生</h2>
+               <h3>THE ELECTION OF THE DOCTOR, AND THEY ARE AD NEW A REBIRTH</h3>
+           </div>
+           <div class="fr">
+               <a href="#"><img src="images/t1.png"></a>
+           </div>
+       </div>
+       <ul>
+           <li>
+               <img src="images/p6-01.jpg">
+               <p>孙小姐 灰指甲2年<img src="images/p6-07.jpg"></p>
+           </li>
+           <li>
+               <img src="images/p6-02.jpg">
+               <p>何某某 灰指甲2年<img src="images/p6-07.jpg"></p>
+           </li>
+           <li>
+               <img src="images/p6-03.jpg">
+               <p>林先生 灰指甲12年<img src="images/p6-07.jpg"></p>
+           </li>
+           <li>
+               <img src="images/p6-04.jpg">
+               <p>秦某某 灰指甲2年<img src="images/p6-07.jpg"></p>
+           </li>
+           <li>
+               <img src="images/p6-05.jpg">
+               <p>肖某某 灰指甲2年<img src="images/p6-07.jpg"></p>
+           </li>
+           <li>
+               <img src="images/p6-06.jpg">
+               <p>李先生 灰指甲1年<img src="images/p6-07.jpg"></p>
+           </li>
+       </ul>
+       <a class="btn" href="#">
+           点击预约，你就是下一个康复者<img src="images/b5.png">
+       </a>
+   </section>
+
+   <section class="part6">
+       <div class="title">
+           <div class="fl">
+               <h2>看皮肤到京都</h2>
+               <h3>SEE THE SKIN TO KYOTO</h3>
+           </div>
+           <div class="fr">
+               <a href="#"><img src="images/t1.png"></a>
+           </div>
+       </div>
+       <ul>
+           <li>
+               <h3>学术研讨</h3>
+               <img src="images/p6-01.jpg" class="i1">
+               <img src="images/p6-02.jpg">
+           </li>
+           <li>
+               <h3>公益为民</h3>
+               <img src="images/p6-03.jpg" class="i1">
+               <img src="images/p6-04.jpg">
+           </li>
+           <li>
+               <h3>康复患者</h3>
+               <img src="images/p6-05.jpg" class="i1">
+               <img src="images/p6-06.jpg">
+           </li>
+           <li>
+               <h3>温馨服务</h3>
+               <img src="images/p6-07.jpg" class="i1">
+               <img src="images/p6-08.jpg">
+           </li>
+       </ul>
+       <a class="btn" href="#">
+           点击了解详情<img src="images/b5.png">
+       </a>
+   </section>
+
+   <a href="#" class="ad"><img src="images/ad1.jpg"></a>
+
+   <div class="more">
+       <h3>点一点、知道更多信息</h3>
+       <ul>
+           <li>
+               <a href="#">
+                   <img src="images/m1.png">
+                   <p>问症状</p>
+               </a>
+           </li>
+           <li>
+               <a href="#">
+                   <img src="images/m2.png">
+                   <p>问治疗</p>
+               </a>
+           </li>
+           <li>
+               <a href="#">
+                   <img src="images/m3.png">
+                   <p>问费用</p>
+               </a>
+           </li>
+           <li>
+               <a href="#">
+                   <img src="images/m4.png">
+                   <p>问医生</p>
+               </a>
+           </li>
+       </ul>
+   </div>
+
+   <div class="iform hd">
+       <span></span>
+       <em>早预约、早治疗、早康复</em>
+       <form  action="/templets/temp/order.php?add=ti" method="post" id="gh_form" name="gh_form" onSubmit="javascript:return check();">
+           <div class="iform_a">
+               <dl>
+                   <dt>患者姓名：</dt>
+                   <dd class="dd1">
+                       <input type="text" id="name" name="name" value="">
+                       <label><input name="sex" type="radio" value="" /> 女</label>
+                       <label><input name="sex" type="radio" value="" /> 男</label>
+                   </dd>
+               </dl>
+               <div class="clear"></div>
+               <dl>
+                   <dt>预约病种：</dt>
+                   <dd>
+                       <select id="select" name="select"  name="bz">
+                           <option value="请选择预约病种">请选择预约病种</option>
+                           <option value="青春痘">青春痘</option>
+                           <option value="腋臭">腋臭</option>
+                           <option value="脱发">脱发</option>
+                           <option value="牛皮癣">牛皮癣</option>
+                           <option value="白癜风">白癜风</option>
+                           <option value="湿疹">湿疹</option>
+                           <option value="皮炎">皮炎</option>
+                           <option value="酒糟鼻">酒糟鼻</option>
+                           <option value="毛囊炎">毛囊炎</option>
+                           <option value="斑秃">斑秃</option>
+                           <option value="带状疱疹">带状疱疹</option>
+                           <option value="毛周角化">毛周角化</option>
+                           <option value="皮肤瘙痒">皮肤瘙痒</option>
+                           <option value="灰指甲">灰指甲</option>
+                           <option value="扁平疣">扁平疣</option>
+                           <option value="平常疣">平常疣</option>
+                           <option value="脚气">脚气</option>
+                           <option value="花斑癣">花斑癣</option>
+                           <option value="手足癣">手足癣</option>
+                       </select>
+                   </dd>
+               </dl>
+               <dl>
+                   <dt>联系电话：</dt>
+                   <dd>
+                       <input type="text" id="tel" name="tel" value="请输入你的联系方式 "
+                              onFocus="if(this.value=='请输入你的联系方式 '){this.value='';}"
+                              onBlur="if(this.value==''){this.value='请输入你的联系方式 ';}">
+                   </dd>
+               </dl>
+               <div class="clear"></div>
+               <dl>
+                   <dt>就诊时间：</dt>
+                   <dd><input type="text" class="datepicker" id="yytime" name="yydate"  readonly="readonly"/></dd>
+               </dl>
+               <dl>
+                   <dt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;留言：</dt>
+                   <dd><textarea type="text"></textarea></dd>
+               </dl>
+               <div class="clear"></div>
+               <div class="button hd"><input type="submit" value="加密提交"></div>
+           </div>
+       </form></div>
+
+   <div class="footer hd mt2">
+
+       <img src="images/botlogo.png">
+
+       <p>统一咨询预约热线：0571-28203700<br>地址：杭州市下城区绍兴路400号</p>
+
+   </div>
+
+   <link href="css/date.css" rel="stylesheet" type="text/css" />
+
+   <script src="js/pickdate.js"></script>
+
+   <script type="text/javascript">
+       $( '[type=date], .datepicker' ).pickadate()
+   </script>
+
+   <script type="text/javascript">
+
+       //表单验证
+
+       $("#gh_form").submit(function(){
+
+           name = trim($("input[name='name']").val());
+
+           if(name == "" || name == "请填入您的真实姓名" ){
+
+               alert("请填入您的姓名");
+
+               $("input[name='name']").focus();
+
+               return false;
+
+           }
+
+           var reg = /^[\u4e00-\u9fa5]{2,4}$/;
+
+           if(!reg.test(name)){
+
+               alert("姓名输入有误");
+
+               $("input[name='name']").focus();
+
+               return false;
+
+           }
+
+           tel = trim($("input[name='tel']").val());
+
+           if(tel == ""){
+
+               alert("请填入您的联系电话");
+
+               $("input[name='name']").focus();
+
+               return false;
+
+           }
+
+           var reg1 = /^(^(\d{3,4}-)?\d{7,8})$|(1[358]{1}[0-9]{9})$/;
+
+           if(!reg1.test(tel)){
+
+               alert("联系电话格式不正确");
+
+               $("input[name='name']").focus();
+
+               return false;
+
+           }
+
+       });
+
+       function trim(str){ //删除左右两端的空格
+
+           return str.replace(/(^\s*)|(\s*$)/g, "");
+
+       }
+
+       function ltrim(str){ //删除左边的空格
+
+           return str.replace(/(^\s*)/g,"");
+
+       }
+
+       function rtrim(str){ //删除右边的空格
+
+           return str.replace(/(\s*$)/g,"");
+
+       }
+
+   </script>
+   <script type="text/javascript" src="js/touchslider_min.js"></script>
+   <script type="text/javascript" src="js/zmshow.js"></script>
+   <script type="text/javascript">zmshow('tab-hd','tab-bd');</script>
+
+</body>
+</html>
