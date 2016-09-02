@@ -102,6 +102,14 @@ img {
 
 .banner img {display: block;}
 
+
+.title .t1{overflow: hidden;width: 3.64rem;margin: 0 auto;}
+.title span{display: block;float: left;width: .56rem;height: .56rem;line-height: .56rem;text-align: center;background-color: #a40200;
+              font-size: .48rem;font-weight: bold;color: #fff;}
+.title p{width: 3rem;float: right;font-size: .36rem;font-weight: bold;color: #a40200;line-height: 1;}
+.title p i{display: block;font-size: .14rem;color: #a1a1a1;margin-top: .06rem;}
+.title img{margin-top: .16rem;}
+
 .part1{margin-top: .37rem;}
 .part1 ul{margin-top: .15rem;}
 .part1 ul li{overflow: hidden;margin-bottom: .26rem;}
@@ -124,6 +132,8 @@ img {
 .part2 ul li:last-of-type{margin-right: 0;background: url("../images/p2-03.jpg") no-repeat;background-size: 100% 100%;}
 
 .part3{margin-top: .37rem;}
+.part3 .title .t1{width: 4.24rem;}
+.part3 .title .t1 p{width: 3.6rem;}
 .part3 ul{margin: .25rem 0;overflow: hidden;background: url("../images/p3-01.jpg") no-repeat;background-size: 100% 100%;}
 .part3 ul li{width: 30.4%;margin-right: 4.4%;float: left;height: 1.94rem;line-height: 1.94rem;text-align: center;color: #fff;}
 .part3 ul li:last-of-type{margin-right: 0;}
@@ -131,6 +141,8 @@ img {
 .part3 .btn{margin: .3rem auto 0;}
 
 .part4{margin-top: .37rem;}
+.part4 .title .t1{width: 5.04rem;}
+.part4 .title .t1 p{width: 4.4rem;}
 .part4 ul{overflow: hidden;padding-top: 0.06rem;}
 .part4 ul li{width: 36%;margin-right: 28%;float: left;height: 1.05rem;overflow: hidden;padding-top: .07rem;border-bottom: 1px dashed #dcdcdc;}
 .part4 ul li:nth-of-type(2n){margin-right: 0;}
@@ -143,6 +155,8 @@ img {
 .part4 .img1{display: block;width: 1.63rem;position: absolute;top: 0;left: 2.24rem;}
 
 .part5{margin-top: .39rem;}
+.part5 .title .t1{width: 4.09rem;}
+.part5 .title .t1 p{width: 3.45rem;}
 .p5-01{margin-top: .23rem;background: url("../images/p5-01.jpg") no-repeat;background-size: 100% 100%;overflow: hidden;}
 .p5-01 .fl{width: 50%;}
 .p5-01 h3{text-align: center;height: .58rem;line-height: .58rem;color: #a40200;font-size: .24rem;}
@@ -162,6 +176,8 @@ img {
 .intro1 a{display: block;}
 
 .part6{margin-top: .38rem;}
+.part6 .title .t1{width: 4.74rem;}
+.part6 .title .t1 p{width: 4.1rem;}
 .p6-01{margin-top: .14rem;position: relative;}
 .p6-02{width: 3.53rem;position: absolute;top: .52rem;right: .12rem;}
 .name{overflow: hidden;}
