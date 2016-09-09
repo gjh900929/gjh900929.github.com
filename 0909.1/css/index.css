@@ -98,14 +98,14 @@ h1,h2,h3,h4,h5{ padding:0; margin:0;}
 .zj_box{zoom:1; overflow:hidden; margin-top:2%;}
 .byjl{ width:96%; margin:2% auto;overflow:hidden;}
 .byjl li{ width:22%; float:left; margin-right:3.2%; background:#f5f5f5; border:#999 solid 1px; overflow:hidden;margin-bottom:2%;}
-.byjl li p{ text-align:center; color:#555555; line-height:1.6;font-size: 90%;}
+.byjl li p{ text-align:center; color:#555555; line-height:1.6;font-size: 80%;}
 .byjl li a,.byjl li a img{display:block;}
 
 .byjl li.noMr{margin-right:0;}
 #qgzhide{display:none;}
 
 #viewmore{ width:83.5%; margin:2% auto 0;display: block;}
-#viewmore a img{ width:100%;}
+#viewmore img{ width:100%;}
 
 .online{ width:83.5%; margin:2% auto 0;display: block;}
 .online a img{ width:100%;}
