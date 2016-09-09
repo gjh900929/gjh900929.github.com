@@ -104,8 +104,8 @@ h1,h2,h3,h4,h5{ padding:0; margin:0;}
 .byjl li.noMr{margin-right:0;}
 #qgzhide{display:none;}
 
-.online{ width:83.5%; margin:2% auto 0; }
-.online a img{ width:100%;}
+#viewmore{ width:83.5%; margin:2% auto 0;display: block;}
+#viewmore a img{ width:100%;}
 /*sy style*/
 .dh{zoom:1; overflow:hidden; margin-top:2%;}
 .dh ul li{overflow: hidden;margin-bottom: .5%;}

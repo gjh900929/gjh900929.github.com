@@ -256,9 +256,40 @@
         <p>青春痘</p>
       </a> </li>
     </ul>
-    <div class="online"> <a onClick="LR_HideInvite();openZoosUrl();return false;"href="#" target="_blank">
-      <img src="images/online.jpg"></a>
+    <div id="qgzhide">
+      <ul class="byjl">
+        <li> <a href="/kfal/hzj/"> <img src="images/qgzimg3.jpg" width="100%">
+          <p>灰指甲</p>
+        </a> </li>
+        <li> <a href="/kfal/bdf/"> <img src="images/qgzimg1.jpg" width="100%">
+          <p>白癜风</p>
+        </a> </li>
+        <li> <a href="/kfal/bpy/"> <img src="images/qgzimg2.jpg" width="100%">
+          <p>扁平疣</p>
+        </a> </li>
+        <li class="noMr"> <a href="/kfal/mny/"> <img src="images/qgzimg4.jpg" width="100%">
+          <p>毛囊炎</p>
+        </a> </li>
+        <li> <a href="/shenjingxingpiyananli/"> <img src="images/qgzimg13.jpg" width="100%">
+          <p>神经性皮炎</p>
+        </a> </li>
+        <li> <a href="/kfal/tf/"> <img src="images/qgzimg14.jpg" width="100%">
+          <p>脱发</p>
+        </a> </li>
+      </ul>
     </div>
+    <a  href="javascript:void(0)" id="viewmore"><img src="images/online.jpg"></a>
+    <script>
+      var oA=document.getElementById('viewmore');
+      var oDiv=document.getElementById('qgzhide');
+
+      oA.onclick=function(){
+
+        oDiv.style.display='block';
+        oA.style.display='none';
+      }
+
+    </script>
   </div>
   
   <!--专家 end--> 
