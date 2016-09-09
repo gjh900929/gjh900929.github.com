@@ -94,6 +94,20 @@ h1,h2,h3,h4,h5{ padding:0; margin:0;}
 .bt05-2 p{font-size: 65%;word-break: break-all;line-height: 1.7em;}
 .bt05-2 div{margin-top: 2%;}
 .bt05-2 div img{display: block;width: 100%;}
+
+.bt06{zoom:1; overflow:hidden; margin-top:2%;}
+.bt06 ul li{ margin-top:2%; border:1px solid #d5d5d5; padding-bottom:69%;}
+.bt06 ul li h4{ float:left; width:12%;}
+.bt06 ul li h4 img{ width:100%;}
+.bt06 ul li  p{ font-size:80%; text-indent:8%; padding-top:1%;}
+.bt06_fr { float:right; width:80%; margin-right:2%;}
+.bt06_fr h5 img{ width:100%; padding-top:2%;}
+
+.bt07{zoom:1; overflow:hidden; margin-top:2%;}
+.bt07 p{width: 92%;margin: 3% auto;text-indent: 2em;font-size: 70%;}
+.bt07 p a{ color:#b10000; }
+.bt07 img{display: block;}
+.bt07 .a1{display: block;width: 92%;margin: 2% auto;padding: 2% 0;background-color: #000;color: #fff;font-size: 80%;text-align: center;}
 /*zj_box style*/
 .zj_box{zoom:1; overflow:hidden; margin-top:2%;}
 .byjl{ width:96%; margin:2% auto;overflow:hidden;}
