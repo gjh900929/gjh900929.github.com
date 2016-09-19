@@ -122,8 +122,10 @@ nav ul li:nth-child(8) {
 .symptoms .fl{width: 20%;}
 .symptoms .fl ul li{height: .66rem;line-height: .66rem;color: #fff;font-size: .22rem;padding-left: .23rem;}
 .symptoms .fr{width: 78%;padding: .08rem 0;}
-.symptoms .fr ul li{height: .79rem;line-height: .79rem;color: #4c4948;font-size: .24rem;}
-.symptoms .fr li span{display: inline-block;margin-left: .3rem;}
+.symptoms .fr ul li{height: .79rem;line-height: .79rem;color: #4c4948;font-size: .24rem;overflow: hidden;padding-left: .4rem;}
+.symptoms .fr li span{display: block;float: left;width: 1.05rem;text-align: left;}
+.symptoms .fr li span:first-child{width: 1.26rem;}
+
 .form{margin-top: .44rem;text-align: center;}
 .formBar{margin-bottom: .14rem;}
 .formBar span{display: inline-block;height: .48rem;line-height: .48rem;margin-right: .16rem;color: #4c4948;
