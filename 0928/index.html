@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/remlay.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<base target="_blank">
+</head>
+<body>
+	<div class="viewport">
+		<header>
+			<a href=""><img src="images/h_top.jpg"></a>
+			<a href="" class="logo"><img src="images/logo.jpg"></a>
+		</header>
+		<nav>
+            <ul class="nu">
+                <li><a href="">东城品牌</a></li>
+                <li><a href="">优惠活动
+                    <img src="images/hot.png" class="hot" alt=""></a></li>
+                <li><a href="">专家风采</a></li>
+                <li><a href="">医学新资讯</a></li>
+                <li><a href="">方案定制
+                    <img src="images/hot.png" class="hot" alt=""></a></li>
+                <li><a href="">来院路线</a></li>
+            </ul>
+            <a href="" class="na">中医内调+外治<br>【男女】祛斑分享</a>
+        </nav>
+		<!--模块一-->
+		<section class="banner">
+			<a href="">
+				<img src="images/banner-01.jpg">
+				<img src="images/banner-02.jpg">
+			</a>
+		</section>
+        <section class="mod01">
+			<img src="images/m1-01.jpg">
+			<img src="images/m1-02.jpg">
+			<a href="#">点击立刻申请挂号</a>
+		</section>
+        <!--模块二-->
+		<section class="mod02">
+			<img src="images/m2-01.jpg">
+			<img src="images/m2-02.jpg">
+			<a href="#">详情咨询</a>
+		</section>
+		<!--模块三-->
+        <section class="mod03">
+			<img src="images/m3-01.jpg">
+			<img src="images/m3-02.jpg">
+			<a href="#">点击申请</a>
+		</section>
+        <!--模块四-->
+		<section class="mod04">
+			<img src="images/m4-01.jpg">
+			<img src="images/m4-02.jpg">
+			<a href="#">点击申请</a>
+		</section>
+        <!--模块五-->
+        <section class="mod05">
+			<img src="images/m5-01.jpg">
+			<img src="images/m5-02.jpg">
+			<a href="#">去充值</a>
+        </section>
+		<!--模块6-->
+		<section class="mod06">
+			<ul>
+				<li>
+					<p>充值<em>3000</em>元</p>
+					<p class="p1">送<em>300</em>元</p>
+					<a href="#">立即申请<img src="images/m6-02.png"></a>
+				</li>
+				<li>
+					<p>充值<em>5000</em>元</p>
+					<p class="p1">送<em>800</em>元</p>
+					<a href="#">立即申请<img src="images/m6-02.png"></a>
+				</li>
+				<li>
+					<p>充值<em>8000</em>元</p>
+					<p class="p1">送<em>1600</em>元</p>
+					<a href="#">立即申请<img src="images/m6-02.png"></a>
+				</li>
+				<li>
+					<p>充值<em>12000</em>元</p>
+					<p class="p1">送<em>3000</em>元</p>
+					<a href="#">立即申请<img src="images/m6-02.png"></a>
+				</li>
+			</ul>
+		</section>
+        <!--模块7-->
+        <section class="mod07">
+			<img src="images/m7-01.jpg">
+			<a href="#"><img src="images/m7-02.png"></a>
+		</section>
+		<!--挂号导航-->
+		<section class="nav2">
+			<ul>
+				<li>
+					<img src="images/part6-04.jpg">
+					<p>网上挂号</p>
+				</li>
+				<li>
+					<img src="images/part6-05.jpg">
+					<p>节省时间</p>
+				</li>
+				<li>
+					<img src="images/part6-06.jpg">
+					<p>避免排队</p>
+				</li>
+				<li>
+					<img src="images/part6-07.jpg">
+					<p>优先就诊</p>
+				</li>
+			</ul>
+		</section>
+	<!--挂号-->
+		<section class="register">
+			<ul>
+		        <li>
+		            就诊姓名：<input name="name" type="text" id="name" value="请输入">　※必填
+		        </li>
+		        <li>
+		            就诊电话：<input type="text" value="请输入" id="tel"
+		                        onFocus="if(this.value=='请输入'){this.value='';}"
+		                        onBlur="if(this.value==''){this.value='请输入';}">　※必填
+		        </li>
+		        <li>
+		            就诊时间：<input type="text" class="datepicker" id="yytime" name="yydate" onBlur="if(this.value==''){this.value=this.defaultValue;}" onFocus="if(this.value==this.defaultValue){this.value='';};" value="点击选择就诊日期"  readonly="readonly"/> 　※必填
+		        </li>
+		        <li>
+		            病种类型：<select id="select">
+					<option value="黄褐斑">黄褐斑</option>
+					<option value="雀斑">雀斑</option>
+					<option value="色素沉着">色素沉着</option>
+					<option value="老年斑">老年斑</option>
+					<option value="晒斑">晒斑</option>
+					<option value="黑斑">黑斑</option>
+					<option value="妊娠斑">妊娠斑</option>
+					<option value="激素斑">激素斑</option>
+					<option value="深层斑">深层斑</option>
+					<option value="反弹斑">反弹斑</option>
+					<option value="真皮斑">真皮斑</option>
+		        </select>
+		        </li>
+		    </ul>
+		    <div class="btn">
+		        <input type="button" value="加密提交" id="anniu">
+		        <input type="submit" value="重新输入" id="" name="">
+		    </div>
+		</section>
+		<link rel="stylesheet" type="text/css" href="css/date.css">
+		<script type="text/javascript" src="js/pickdate.js"></script>
+		<script type="text/javascript">
+
+          $( '[type=date], .datepicker' ).pickadate()
+
+      </script>
+      <script type="text/javascript">
+          $("#anniu").click(function () {
+              if ($('#name').val() == '' || $('#name').val() == '请输入') {
+                  alert("请填写姓名！");
+                  $('#name').focus();
+                  return false;
+
+              }
+
+              if ($('#tel').val() == '' || $('#tel').val() == '请输入') {
+                  alert("请填写手机号码！");
+                  $('#tel').focus();
+                  return false;
+              }
+              var tel = /^(1[3,5,8][0-9])\d{8}$/;
+              if (!tel.test($('#tel').val())) {
+                  alert("请正确填写手机号码！");
+                  return false ;
+              }
+              if ($('#bz').val() == ''||$('#bz').val() == '请选择预约病种') {
+                  alert("请选择预约病种");
+                  $('#bz').focus()
+                  ;return false
+              }
+
+          });
+
+
+      </script>
+		<!--底部-->
+	<footer class="mt12">
+        <ul class="nu clearfix">
+            <li><a href="">东城品牌</a></li>
+            <li><a href="">优惠活动
+                <img src="images/hot.png" class="hot" alt=""></a></li>
+            <li><a href="">专家风采</a></li>
+            <li><a href="">特色疗法
+                <img src="images/hot.png" class="hot" alt=""></a></li>
+            <li><a href="">来院路线</a></li>
+        </ul>
+        <div class="ft clearfix">
+			<div class="ft-01">
+				<img src="images/f1.jpg">
+			</div>
+			<div class="ft-02">
+				<ul>
+					<li>
+						<img class="fl" src="images/f2.jpg">
+						<p class="fl">门诊时间（节假日无休）<span>08:00-17:30</span></p>
+					</li>
+					<li>
+						<img class="fl" src="images/f3.jpg">
+						<p class="fr">医院地址：<span>沈阳市大东区小北街38号</span></p>
+					</li>
+				</ul>
+				<div class="btn">
+					<a href="#">免费电话</a>
+					<a class="a1" href="#">在线咨询</a>
+				</div>
+			</div>
+		</div>
+    </footer>
+	</div>
+</body>
+</html>
